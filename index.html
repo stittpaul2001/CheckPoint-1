@@ -18,54 +18,67 @@
 </head>
 
 <body>
-  <header class="container-fluid sticky-top">
+  <header class="container-fluid sticky-top mb-4">
     <nav class="d-block">
-      <h1 class="bungee-tint-regular green">Checkpoint #1</h1>
-      <img class="nav-image" src="dino-logo.avif" alt="t-rex-logo-img">
+      <div class="row justify-space-around px-4">
+        <h1 class="bungee-tint-regular">Checkpoint #1</h1>
+        <img class="nav-image" src="dino-logo.avif" alt="t-rex-logo-img">
+      </div>
     </nav>
   </header>
 
-  <main class="container-fluid">
-    <div class="row justify-content-center align-content-center p-3 bg-secondary bg-image-desk">
-      <form class="col-md-3 text-center mt-3 mb-3">
-        <h1>Sign Up</h1>
-        <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
-        <div class="col mb-3">
-          <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+  <section class="desk-section">
+    <main class="container-fluid">
+      <div class="row justify-content-center align-content-center p-3 bg-secondary bg-image-desk px-3">
+        <form class="col-md-3 text-center mt-3 mb-3 p-4">
+          <h1 class="shadow-lg fw-bolder mb-3">Sign Up</h1>
+          <div class="col mb-3">
+            <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
+          </div>
+          <div class="col mb-3">
+            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+          </div>
+          <div class="col mb-3">
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+          </div>
+          <div class="col mb-3">
+            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
+          </div>
+          <div class="col-md-12 center-text d-flex">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label px-3 shadow-lg" for="flexCheckChecked"> By checking this box I agree to the
+              terms of
+              the
+              lorem ipsum</label>
+          </div>
+          <div class="col m-3">
+            <button type="submit" class="btn btn-dark btn-outline-danger shadow-lg mb-1">Submit</button>
+          </div>
+        </form>
+        <div class="col-md-9 d-none d-md-block text-center  align-content-center">
+          <h1 class="fw-bold shadow-lg">Main view when first loaded</h1>
+          <p class="fs-3 fw-semibold shadow-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            voluptatum
+            aspernatur
+            consequuntur
+            atque?
+            Eum quia doloribus assumenda quo magni pariatur provident sequi cupiditate molestiae, minima corporis
+            obcaecati
+            perferendis iste! Mollitia!</p>
         </div>
-        <div class="col mb-3">
-          <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
-        </div>
-        <div class="col mb-3">
-          <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
-        </div>
-        <div class="col-md-12 center-text d-flex">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-          <label class="form-check-label px-3" for="flexCheckChecked"> By checking this box I agree to the terms of the
-            lorem ipsum</label>
-        </div>
-        <div class="col m-3">
-          <button type="submit" class="btn btn-dark">Submit</button>
-        </div>
-      </form>
-      <div class="col-md-9 d-none d-md-block">
-        <h1>Main view when first loaded</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum aspernatur consequuntur atque?
-          Eum quia doloribus assumenda quo magni pariatur provident sequi cupiditate molestiae, minima corporis
-          obcaecati
-          perferendis iste! Mollitia!</p>
       </div>
-    </div>
+  </section>
 
-    <section class="row bg-RC mb-2 mt-2">
-      <div class="col-md-6">
-        <h1 class="text-center">Here at Site Clone, we're family</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugiat doloremque at voluptatem sed id et
-          accusamus animi sit voluptatibus excepturi natus quas mollitia, consequuntur iusto quia. Doloremque, ipsa
-          consequuntur!</p>
-      </div>
-      <div class="col-md-6 text-danger magic-card-wrapper">
-        <div class="card text-start p-4 magic-card">
+  <section class="row bg-RC mb-2 mt-2 px-3 justify-space-between align-content-center">
+    <div class="col-md-6">
+      <h1 class="text-center">Here at Site Clone, we're family</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugiat doloremque at voluptatem sed id et
+        accusamus animi sit voluptatibus excepturi natus quas mollitia, consequuntur iusto quia. Doloremque, ipsa
+        consequuntur!</p>
+    </div>
+    <div class="col-md-6 text-danger magic-card-wrapper">
+      <div class="card text-start p-4 magic-card text-start">
+        <div class="fs-5">
           <h6><i class="mdi mdi-wrench"></i> The best technical professionals in the field</h6>
           <h6><i class="mdi mdi-truck-off-road"></i> We drive our cars to work everyday </h6>
           <h6><i class="mdi mdi-phone-in-talk"></i> Our office phones have psychic abilities</h6>
@@ -73,53 +86,107 @@
           <h6><i class="mdi mdi-flash-outline"></i>A lightning icon to really define our power </h6>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="row">
-      <div class="col-md-6">
-        <video></video>
-      </div>
-      <div class="col-md-6 align-content-center">
-        <a><img width="96" height="96" src="https://img.icons8.com/emoji/96/t-rex.png" alt="t-rex" /></a>
-        <h3>Execute Core Compentencies So That As An End Result.</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nihil vero nam aperiam corporis fuga
-          fugiat impedit ullam laudantium blanditiis animi doloribus neque sed. Quia praesentium architecto eos
-          consequatur exercitationem?</p>
-        <button>Buy Now</button>
-      </div>
-    </section>
+  <section class="row justify-content-center align-content-center px-3 mt-2 mb-2">
+    <div class="col-md-6">
+      <video></video>
+    </div>
+    <div class="col-md-6 text-center">
+      <a><img width="96" height="96" src="https://img.icons8.com/emoji/96/t-rex.png" alt="t-rex" /></a>
+      <h3>Execute Core Compentencies So That As An End Result.</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, nihil vero nam aperiam corporis fuga
+        fugiat impedit ullam laudantium blanditiis animi doloribus neque sed. Quia praesentium architecto eos
+        consequatur exercitationem?</p>
+      <button class="btn btn-dark btn-outline-danger">Buy Now</button>
+    </div>
+  </section>
 
-    <section class="card section">
-
-    </section>
-
-    <section class="map-image">
-      <div class="row justify-content-center align-content-center d-flex bg-secondary bg-image-map">
-        <div class="col-md-6">
-
+  <section class="cards section  mt-3">
+    <div class="row align-content-center justify-content-center px-3">
+      <div class="col-md-4 mb-3 order-2 order-md-2">
+        <div class="card">
+          <h5 class="card-header">
+            Card One
+          </h5>
+          <div class="card-body">
+            <p class="card-text">
+              Card content
+            </p>
+          </div>
+          <div class="card-footer">
+            Reviewed by
+          </div>
         </div>
       </div>
-    </section>
+      <div class="col-md-4 mb-3 order-3 order-md-1">
+        <div class="card">
+          <h5 class="card-header">
+            Card two
+          </h5>
+          <div class="card-body">
+            <p class="card-text">
+              <img class="card-section" src="keyboarddino.avif" alt="image of a t-rex typing">
+            </p>
+          </div>
+          <div class="card-footer">
+            Reviewed by
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 order-3 order-md-3">
+        <div class="card">
+          <h5 class="card-header">
+            Card three
+          </h5>
+          <div class="card-body">
+            <p class="card-text">
+              <img class="card-section" src="officerex.avif" alt="image of a t-rex at the office">
+            </p>
+          </div>
+          <div class="card-footer">
+            Reviewed by
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-image">
+    <div class="row justify-content-center align-content-center d-flex bg-secondary bg-map-image mb-3">
+    </div>
+    </div>
+  </section>
   </main>
 
   <footer class="container-fluid">
-    <div class="row text-center">
+    <div class="row text-center align-content-center mb-2">
       <div class="col-md-4">
-        <h5> Visit Us</h5>
-        <p>1234 Westgate st. Boise,ID 83704</p>
+        <h3 class="fw-bold"> Visit Us</h3>
+        <div class="fs-6">
+          <p>1234 Westgate st.</p>
+          <p>Boise,ID 83704</p>
+        </div>
       </div>
       <div class="col-md-4">
-        <h5>Contact Us</h5>
-        <p>(208)123-1234</p>
-        <p>Monday-Friday 9:00 A.M.-5:00 P.M.</p>
+        <h3 class="fw-bold">Contact Us</h3>
+        <div class="fs-6">
+
+          <p>(208)123-1234</p>
+          <p>Monday-Friday 9:00 A.M.-5:00 P.M.</p>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h5>Socials</h5>
-        <p><i class="mdi mdi-github"></i>
-          <i class="mdi mdi-spotify"></i>
-          <i class="mdi mdi-instagram"></i>
-          <i class="mdi mdi-gmail"></i>
-        </p>
+      <div class="col-md-4 justify-space-around">
+        <h3 class="fw-bold">Socials</h3>
+        <div class="text-primary fs-2">
+
+          <p><i class="mdi mdi-github"></i>
+            <i class="mdi mdi-spotify"></i>
+            <i class="mdi mdi-instagram"></i>
+            <i class="mdi mdi-gmail"></i>
+          </p>
+        </div>
       </div>
     </div>
   </footer>

@@ -2,7 +2,14 @@
   font-family: "Bungee Tint", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: rgb(3, 129, 3);
+}
+
+
+
+body {
+  background-color: rgb(0, 51, 99);
+  color: rgb(30, 208, 11)
+    /* rgb(12, 12, 12); */
 }
 
 .bg-image-desk {
@@ -28,12 +35,17 @@
   aspect-ratio: 1/1;
 }
 
+.desk-section {
+  /* color: red;color: red; */
+}
+
 .magic-card-wrapper {
   position: relative;
 }
 
 .magic-card {
-  background-color: aqua;
+  background-color: rgb(12, 12, 12);
+  color: indigo;
   position: relative;
 }
 
@@ -48,9 +60,21 @@
   }
 }
 
-.bg-image-map {
+.bg-map-image {
   background-image: url(map1.avif);
   background-position: center;
   background-size: cover;
+  min-height: 60dvh;
 
+}
+
+.card-section {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  border: solid;
+  /* color: indigo; */
 }
