@@ -1,0 +1,18 @@
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-image {
+  height: 20%;
+  border-radius: 50%;
+  justify-content: center;
+  object-position: center;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border: solid;
+  border-color: indigo;
+  color: green;
+
+}
