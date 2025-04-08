@@ -9,7 +9,6 @@
 body {
   background-color: rgb(0, 51, 99);
   color: rgb(30, 208, 11)
-    /* rgb(12, 12, 12); */
 }
 
 .bg-image-desk {
@@ -24,8 +23,7 @@ body {
 }
 
 .nav-image {
-  width: 10%;
-  height: 10%;
+  width: 15%;
   border: solid;
   border-radius: 50%;
   border-color: indigo;
@@ -35,9 +33,8 @@ body {
   aspect-ratio: 1/1;
 }
 
-.desk-section {
-  /* color: red;color: red; */
-}
+
+
 
 .magic-card-wrapper {
   position: relative;
@@ -54,10 +51,16 @@ body {
     background-color: rgb(12, 12, 12);
     color: red;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
+    top: 70px;
+    left: 30px;
+    right: 30px;
   }
+}
+
+.dino-crossing {
+  background-position: center;
+  background-size: cover;
+  width: 100dvh;
 }
 
 .bg-map-image {
