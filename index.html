@@ -20,10 +20,36 @@
 <body>
   <header class="container-fluid sticky-top">
     <nav class="d-block">
-      <h1 class="bungee-tint-regular">Checkpoint #1</h1>
-      <img class="nav-image border" src="dino-logo.avif" alt="t-rex-logo-img">
+      <h1 class="bungee-tint-regular green">Checkpoint #1</h1>
+      <img class="nav-image" src="dino-logo.avif" alt="t-rex-logo-img">
     </nav>
   </header>
+
+  <main class="container-fluid">
+    <div class="row justify-content-center align-content-center p-3 bg">
+      <form class="col-md-3 text-center mt-3 mb-3">
+        <h1>Sign Up</h1>
+        <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
+        <div class="col mb-3">
+          <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+        </div>
+        <div class="col mb-3">
+          <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+        </div>
+        <div class="col mb-3">
+          <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
+        </div>
+        <div class="col-md-12 center-text d-flex">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label px-3" for="flexCheckChecked"> By checking this box I agree to the terms of the
+            lorem ipsum</label>
+        </div>
+        <div class="col m-3">
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
 
 </body>
 
