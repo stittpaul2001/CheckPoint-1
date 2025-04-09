@@ -19,12 +19,12 @@
 
 <body>
   <header class="container-fluid sticky-top mb-4">
-    <nav class="d-block">
-      <div class="row justify-space-around align-items-center px-4">
-        <div class="col-md-6">
+    <nav class="d-block nav-bar">
+      <div class="row justify-contert-around align-items-center text px-4">
+        <div class="col-6 text-start">
           <img class="nav-image" src="dino-logo.avif" alt="t-rex-logo-img">
         </div>
-        <div class="col-md-6">
+        <div class="col-6 text-end">
           <h1 class="bungee-tint-regular text-end">Checkpoint #1</h1>
         </div>
       </div>
@@ -33,8 +33,8 @@
 
   <main class="container-fluid py-3">
     <section class="desk-section">
-      <div class="row justify-content-center align-content-center p-3 bg-secondary bg-image-desk px-3">
-        <form class="col-md-3 text-center mt-3 mb-3 p-4 shadow-lg">
+      <div class="row justify-content-around align-content-center p-3 bg-secondary bg-image-desk px-3">
+        <form class="col-md-3 text-start mt-3 mb-3 p-4 shadow-lg card">
           <h1 class="fw-bolder mb-3">Sign Up</h1>
           <hr>
           <div class="col mb-3">
@@ -61,10 +61,10 @@
             <button type="submit" class="btn btn-dark btn-outline-danger shadow-lg mb-1">Submit</button>
           </div>
         </form>
-        <div class="col-md-9 d-none d-md-block text-center shadow-lg align-content-center">
+        <div class="col-md-5 d-none d-md-block shadow-lg align-content-center text-center">
           <h1 class="fw-bold">Main view when first loaded</h1>
           <hr>
-          <p class="fs-3 fw-semibold center-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          <p class="fs-3 fw-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             voluptatum
             aspernatur
             consequuntur
@@ -76,18 +76,18 @@
       </div>
     </section>
 
-    <section class="row bg-RC mt-2 px-3 justify-space-between align-content-center">
-      <div class="col-md-6 shadow-lg">
-        <h1 class="text-center fw-bold mt-4">Here at Site Clone, we're family</h1>
+    <section class="row bg-RC px-3 justify-content-around align-content-center">
+      <div class="col-md-4 shadow-lg">
+        <h1 class="fw-bold mt-4">Here at Site Clone, we're family</h1>
         <hr>
-        <p class="fs-4 mb-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugiat
+        <p class="fs-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugiat
           doloremque at
           voluptatem
           sed id et
           accusamus animi sit voluptatibus excepturi natus quas mollitia, consequuntur iusto quia. Doloremque, ipsa
           consequuntur!</p>
       </div>
-      <div class="col-md-6 text-danger magic-card-wrapper">
+      <div class="col-md-5 text-danger magic-card-wrapper mt-2 mb-3">
         <div class="card text-start p-4 magic-card text-start">
           <h3><i class="mdi mdi-wrench text-warning"></i> The best technical professionals in the field</h3>
           <h3><i class="mdi mdi-truck-off-road"></i> We drive our cars to work everyday </h3>
@@ -99,28 +99,31 @@
       </div>
     </section>
 
-    <section class="row justify-content-center align-items-center px-3 mt-2 mb-2">
-      <div class="col-md-4 mt-2 mb-2">
-        <img class="dino-crossing" src="crossing.avif" alt="image of a t-rex crossing">
+    <section class="row justify-content-around align-items-center px-3 mt-2 mb-2">
+      <div class="col-md-4 mt-2 mb-2 text-center">
+        <img class="dino-crossing mt-1 mb-1" src="crossing.avif" alt="image of a t-rex crossing">
       </div>
-      <div class="col-md-8 text-center shadow-lg">
+      <div class="col-md-6 shadow-lg">
         <a><img width="96" height="96" src="https://img.icons8.com/emoji/96/t-rex.png" alt="t-rex" /></a>
         <h3 class="fw-bold">Execute Core Compentencies So That As An End Result.</h3>
         <hr>
-        <p class="text-center fs-3 amatic-sc-regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+        <p class=" fs-3 amatic-sc-regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores,
           nihil vero nam
           aperiam
           corporis fuga
           fugiat impedit ullam laudantium blanditiis animi doloribus neque sed. Quia praesentium architecto eos
           consequatur exercitationem?</p>
-        <button class="btn btn-dark btn-outline-danger">Buy Now</button>
+        <div class="d-md-flex justify-content-md-end">
+          <button class="btn btn-dark btn-outline-danger mb-3">Buy Now</button>
+        </div>
       </div>
     </section>
 
-    <section class="cards section  mt-3">
-      <div class="row align-content-center justify-content-center px-3">
-        <div class="col-md-4 mb-3 order-2 order-md-2">
-          <div class="card">
+    <section class="cards section">
+      <div class="row px-3 bg-dark">
+
+        <div class="col-md-4 mb-3 order-2 order-md-2 mt-1">
+          <div class="card align-item-center mt-2">
             <h5 class="card-header text-center">
               Do you like cute little bunnies?
             </h5>
@@ -140,8 +143,9 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-4 mb-3 order-3 order-md-1">
-          <div class="card">
+          <div class="card mt-5">
             <h5 class="text-center">
               When typing becomes hard because your hands dont reach...
             </h5>
@@ -155,8 +159,9 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-4 mb-3 order-3 order-md-3">
-          <div class="card">
+          <div class="card mt-5 mb-2">
             <h5 class="text-center fs-5">
               Sometimes I wonder...
             </h5>
@@ -174,30 +179,34 @@
     </section>
 
     <section class="map-image">
-      <div class="row justify-content-center align-content-center d-flex bg-secondary bg-map-image mb-3">
-      </div>
+      <div class="row align-content-center d-flex bg-secondary bg-map-image mb-3">
       </div>
     </section>
   </main>
 
   <footer class="container-fluid">
-    <div class="row text-center align-content-center mb-2">
-      <div class="col-md-4 shadow-lg">
+    <div class="row align-content-center justify-content-around p-3 px-5">
+
+      <div class="col-md-3 shadow-lg">
         <h3 class="fw-bold"> Visit Us</h3>
         <div class="fs-6">
           <p>1234 Westgate st.</p>
           <p>Boise,ID 83704</p>
         </div>
       </div>
-      <div class="col-md-4 shadow-lg">
-        <h3 class="fw-bold">Contact Us</h3>
-        <div class="fs-6">
 
+      <div class="col-md-4 shadow-lg">
+        <div class="fw-bold">
+          <h3>Contact Us</h3>
+        </div>
+        <div class="fs-6">
           <p>(208)123-1234</p>
           <p>Monday-Friday 9:00 A.M.-5:00 P.M.</p>
         </div>
       </div>
-      <div class="col-md-4 justify-space-around shadow-lg">
+
+
+      <div class="col-md-3 shadow-lg">
         <h3 class="fw-bold">Socials</h3>
         <div class="fw-bold fs-2">
           <p><i class="mdi mdi-github text-danger"></i>
