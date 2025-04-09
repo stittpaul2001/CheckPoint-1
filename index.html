@@ -22,65 +22,52 @@
 
 <body>
   <header class="container-fluid sticky-top mb-4">
-    <nav class="d-block nav-bar">
-      <div class="row justify-contert-around align-items-center text px-4">
-        <div class="col-6 text-start">
-          <img class="nav-image mt-3" src="dino-logo.avif" alt="t-rex-logo-img">
-        </div>
-        <div class="col-6 text-end">
-          <h1 class="bungee-tint-regular text-end">Checkpoint #1</h1>
-        </div>
+    <nav class="row justify-contert-around align-items-center text px-4">
+      <div class="col-6 text-start">
+        <img class="nav-image mt-3" src="dino-logo.avif" alt="t-rex-logo-img">
+      </div>
+      <div class="col-6 text-end">
+        <h1 class="bungee-tint-regular text-end">Checkpoint #1</h1>
       </div>
     </nav>
   </header>
 
   <main class="container-fluid">
-    <section class="desk-section">
-      <div class="row justify-content-around align-content-center p-3 bg-secondary bg-image-desk px-3">
-        <form class="col-md-3 text-start mt-3 mb-3 p-4 shadow-lg card">
-          <h1 class="fw-bolder mb-3">Sign Up</h1>
-          <hr>
-          <div class="col mb-3">
-            <input type="text" class="form-control" name="Name" id="name" placeholder="Name">
-          </div>
-          <div class="col mb-3">
-            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
-          </div>
-          <div class="col mb-3">
-            <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
-          </div>
-          <div class="col mb-3">
-            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
-          </div>
-          <div class="col-md-10 center-text d-flex">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label px-1 fw-semibold" for="flexCheckChecked"> By checking this box I
-              agree to the
-              terms of
-              the
-              lorem ipsum</label>
-          </div>
-          <div class="col m-3">
-            <button type="submit" class="btn rounded-pill btn-dark btn-outline-danger shadow-lg mb-1">Submit</button>
-          </div>
-        </form>
-        <div class="col-md-5 d-none d-md-block shadow-lg align-content-center text-center">
-          <h1 class="fw-bold">Main view when first loaded</h1>
-          <hr>
-          <p class="fs-3 fw-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            voluptatum
-            aspernatur
-            consequuntur
-            atque?
-            Eum quia doloribus assumenda quo magni pariatur provident sequi cupiditate molestiae, minima corporis
-            obcaecati
-            perferendis iste! Mollitia!</p>
-        </div>
+    <div class="row justify-content-around align-content-center p-3 bg-secondary bg-image-desk px-3">
+      <form class="col-md-3 text-start mt-3 mb-3 p-4 shadow-lg card">
+        <h1 class="fw-bolder mb-3">Sign Up</h1>
+        <hr>
+
+        <input type="text" class="form-control mb-3" name="Name" id="name" placeholder="Name">
+        <input type="email" class="form-control mb-3" name="Email" id="Email" placeholder="Email">
+        <input type="text" class="form-control mb-3" name="phone" id="phone" placeholder="Phone Number">
+        <textarea class="form-control mb-3" name="message" id="message" rows="3" placeholder="Message"></textarea>
+        <input class="form-check-input mb-3" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label px-1 fw-semibold mb-3 center-text" for="flexCheckChecked"> By checking this
+          box I
+          agree to the
+          terms of
+          the
+          lorem ipsum</label>
+        <button type="submit m-3"
+          class="btn rounded-pill btn-dark btn-outline-danger shadow-lg mb-1 mb-3">Submit</button>
+      </form>
+      <div class="col-md-5 d-none d-md-block shadow-lg align-content-center text-center">
+        <h1 class="fw-bold">Main view when first loaded</h1>
+        <hr>
+        <p class="fs-3 fw-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          voluptatum
+          aspernatur
+          consequuntur
+          atque?
+          Eum quia doloribus assumenda quo magni pariatur provident sequi cupiditate molestiae, minima corporis
+          obcaecati
+          perferendis iste! Mollitia!</p>
       </div>
-    </section>
+    </div>
 
     <section class="row bg-RC px-3 justify-content-around align-content-center">
-      <div class="col-md-4 shadow-lg">
+      <div class="col-md-4 shadow-lg order-2 order-md-2">
         <h1 class="fw-bold mt-4">Here at Site Clone, we're family</h1>
         <hr>
         <p class="fs-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugiat
@@ -90,7 +77,7 @@
           accusamus animi sit voluptatibus excepturi natus quas mollitia, consequuntur iusto quia. Doloremque, ipsa
           consequuntur!</p>
       </div>
-      <div class="col-md-5 text-danger magic-card-wrapper mt-2 mb-3">
+      <div class="col-md-5 text-danger magic-card-wrapper mt-3 mb-3 order-1 order-md-2">
         <div class="card text-start p-4 magic-card text-start">
           <h3><i class="mdi mdi-wrench text-warning"></i> The best technical professionals in the field</h3>
           <h3><i class="mdi mdi-truck-off-road"></i> We drive our cars to work everyday </h3>
@@ -104,7 +91,7 @@
 
     <section class="row justify-content-around align-items-center px-3 mt-2 mb-2">
       <div class="col-md-3 mt-2 mb-2 text-center">
-        <img class="dino-crossing mt-1 mb-1" src="crossing.avif" alt="image of a t-rex crossing">
+        <img class="dino-crossing mt-1 mb-1 fluid" src="crossing.avif" alt="image of a t-rex crossing">
       </div>
       <div class="col-md-6 shadow-lg">
         <div class="text-center">
@@ -118,9 +105,8 @@
           corporis fuga
           fugiat impedit ullam laudantium blanditiis animi doloribus neque sed. Quia praesentium architecto eos
           consequatur exercitationem?</p>
-        <div class="d-md-flex justify-content-md-end">
-          <button class="btn rounded-pill btn-dark btn-outline-danger mb-3">Buy Now</button>
-        </div>
+        <button class="btn rounded-pill btn-dark btn-outline-danger mb-3 d-md-flex justify-content-md-end">Buy
+          Now</button>
       </div>
     </section>
 
