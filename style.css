@@ -4,15 +4,9 @@
   font-style: normal;
 }
 
-.amatic-sc-regular {
-  font-family: "Amatic SC", sans-serif;
+.luxurious-roman-regular {
+  font-family: "Luxurious Roman", serif;
   font-weight: 400;
-  font-style: normal;
-}
-
-.amatic-sc-bold {
-  font-family: "Amatic SC", sans-serif;
-  font-weight: 700;
   font-style: normal;
 }
 
@@ -72,15 +66,15 @@ body {
 .dino-crossing {
   background-position: center;
   background-size: cover;
-  width: 60vh;
-  min-height: 700px;
+  width: 48vh;
+  min-height: 650px;
 }
 
 .bg-map-image {
   background-image: url(map1.avif);
   background-position: center;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 65vh;
 
 }
 
